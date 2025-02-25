@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Pizzaria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="./img/logo-fundo.png" alt="Logo da Pizzaria" class="logo">
+        <form class="cadastro-form">
+            <h2>Cadastro de Cliente</h2>
+        
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required>
+        
+            <label for="rua">Rua:</label>
+            <input type="text" id="rua" name="rua" placeholder="Nome da rua" required>
+        
+            <label for="numero">Número:</label>
+            <input type="text" id="numero" name="numero" placeholder="Número da casa" required>
+        
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro" name="bairro" placeholder="Nome do bairro" required>
+        
+            <label for="complemento">Complemento:</label>
+            <input type="text" id="complemento" name="complemento" placeholder="Apartamento, bloco, etc.">
+
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" name="cep" placeholder="00000-000" required>
+
+            <label for="ponto_referencia">Ponto de Referência:</label>
+            <input type="text" id="ponto_referencia" name="ponto_referencia" placeholder="Ex: Próximo ao mercado">
+
+            <button type="submit">Cadastrar</button>
+        </form>        
+    </div>
+</body>
+</html>
