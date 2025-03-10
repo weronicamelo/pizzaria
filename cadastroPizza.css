@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 40%; /* Diminuindo o tamanho do formulário */
+    margin: 180px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #d32f2f;
+    font-size: 24px; /* Diminuindo o tamanho do título */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 8px 0 4px;
+    font-size: 12px; /* Reduzindo o tamanho da fonte */
+    color: #555;
+}
+
+input, textarea {
+    padding: 8px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px; /* Diminuindo o tamanho da fonte nos campos */
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px; /* Reduzindo a altura do campo de texto */
+}
+
+input[type="submit"] {
+    background-color: #d32f2f;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 13px;  /* Ajustando o tamanho do botão */
+    border-radius: 20px;  /* Tornando as bordas mais arredondadas */
+    font-size: 14px;  /* Diminuindo o tamanho da fonte */
+    width: 170px; /* Reduzindo o tamanho do botão */
+    margin: 15px auto; /* Centralizando o botão */
+    display: block; /* Garantindo que o botão seja tratado como bloco */
+}
+
+input[type="submit"]:hover {
+    background-color: #b71c1c;
+}
+
+input::placeholder {
+    font-size: 12px; 
+    color: rgba(100, 100, 100, 0.7); 
+    font-style: italic; 
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group div {
+    width: 48%;
+}
+
+/* Barra de Navegação */
+.navbar {
+    background-color: #ccc;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
