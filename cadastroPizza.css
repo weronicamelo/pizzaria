@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    font-family: 'Poppins', sans-serif;
+    background-color: #9b1212;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    width: 40%; /* Diminuindo o tamanho do formulário */
+    width: 40%; 
     margin: 180px auto;
     background-color: white;
     padding: 20px;
@@ -17,7 +19,7 @@ body {
 h1 {
     text-align: center;
     color: #d32f2f;
-    font-size: 24px; /* Diminuindo o tamanho do título */
+    font-size: 24px; 
 }
 
 form {
@@ -27,8 +29,9 @@ form {
 
 label {
     margin: 8px 0 4px;
-    font-size: 12px; /* Reduzindo o tamanho da fonte */
+    font-size: 15px; 
     color: #555;
+    font-weight: bold;
 }
 
 input, textarea {
@@ -36,12 +39,17 @@ input, textarea {
     margin: 5px 0 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 14px; /* Diminuindo o tamanho da fonte nos campos */
+    font-size: 14px; 
 }
 
 textarea {
     resize: vertical;
-    min-height: 80px; /* Reduzindo a altura do campo de texto */
+    min-height: 80px; 
+}
+
+#preco {
+    width: 500%;
+    max-width: 750px; 
 }
 
 input[type="submit"] {
@@ -49,12 +57,12 @@ input[type="submit"] {
     color: white;
     cursor: pointer;
     border: none;
-    padding: 13px;  /* Ajustando o tamanho do botão */
-    border-radius: 20px;  /* Tornando as bordas mais arredondadas */
-    font-size: 14px;  /* Diminuindo o tamanho da fonte */
-    width: 170px; /* Reduzindo o tamanho do botão */
-    margin: 15px auto; /* Centralizando o botão */
-    display: block; /* Garantindo que o botão seja tratado como bloco */
+    padding: 13px;  
+    border-radius: 20px;  
+    font-size: 14px;  
+    width: 170px; 
+    margin: 15px auto; 
+    display: block; 
 }
 
 input[type="submit"]:hover {
@@ -81,10 +89,19 @@ textarea {
     width: 48%;
 }
 
-/* Barra de Navegação */
 .navbar {
-    background-color: #ccc;
+    background-color: #fdfafa;
     overflow: hidden;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 20px; 
+}
+
+.navbar .logo {
+    height: 80px; 
+    width: auto; 
+    max-width: 150px; 
 }
 
 .navbar ul {
@@ -99,10 +116,9 @@ textarea {
 }
 
 .navbar ul li a {
-    color: white;
+    color: rgb(119, 92, 92);
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
     display: inline-block;
 }
-
